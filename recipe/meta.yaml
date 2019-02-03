@@ -1,6 +1,6 @@
 {% set name = "refet" %}
-{% set version = "0.3.7" %}
-{% set sha256 = "1b614ffbdaa44bcdb1869d8c2095583e6509a0cb6be952d643893a4f55dce220" %}
+{% set version = "0.3.9" %}
+{% set sha256 = "a0def55e54a35394aac74bab2bc039a2bf2570148ef3230aba14d5999b35b1d3" %}
 
 package:
   name: {{ name|lower }}
