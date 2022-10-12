@@ -17,11 +17,11 @@ build:
 
 requirements:
   host:
-    - python
+    - python >=3.6
     - pip
     - pytest-runner
   run:
-    - python
+    - python >=3.6
     - numpy
 
 test:
@@ -29,7 +29,7 @@ test:
     - refet
 
 about:
-  home: https://github.com/DRI-WSWUP/RefET
+  home: https://github.com/WSWUP/RefET
   license: Apache-2.0
   license_family: APACHE
   license_file: LICENSE.txt
