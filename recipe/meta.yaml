@@ -1,6 +1,6 @@
 {% set name = "refet" %}
-{% set version = "0.3.10" %}
-{% set sha256 = "2f2f558fc8c1ed62462a434bdf542fb8081ea69c7c216ff7c3214457a14e9c4d" %}
+{% set version = "0.3.12" %}
+{% set sha256 = "a0619cb8ff98ab1c853d3485d72968cbff5e9bd81c817e3a68306b19bf09e439" %}
 
 package:
   name: {{ name|lower }}
@@ -13,7 +13,7 @@ source:
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
+  script: {{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv
 
 requirements:
   host:
@@ -33,7 +33,7 @@ about:
   license: Apache-2.0
   license_family: APACHE
   license_file: LICENSE.txt
-  summary: 'ASCE Standardized Reference Evapotranspiration Functions'
+  summary: ASCE Standardized Reference Evapotranspiration Functions
 
 extra:
   recipe-maintainers:
