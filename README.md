@@ -1,7 +1,7 @@
 About refet
 ===========
 
-Home: https://github.com/DRI-WSWUP/RefET
+Home: https://github.com/WSWUP/RefET
 
 Package license: Apache-2.0
 
